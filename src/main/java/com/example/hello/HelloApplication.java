@@ -11,6 +11,7 @@ public class HelloApplication extends SpringBootServletInitializer {
   @Override
   protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
     return application.sources(HelloApplication.class);
+    
   }
 
   public static void main(String[] args) {
